@@ -1,0 +1,34 @@
+{
+    "name": "BouncingBallInputActions",
+    "maps": [
+        {
+            "name": "Bouncing Ball",
+            "id": "2233a633-1739-4df2-9bd0-75a78f9fad77",
+            "actions": [
+                {
+                    "name": "Bounce",
+                    "type": "Button",
+                    "id": "9713c64f-9c2a-4ed1-827d-50bd9da308b1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(duration=1,pressPoint=0.001)",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "43c0eb8e-56da-437b-96b4-3fcd7c946362",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Bounce",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

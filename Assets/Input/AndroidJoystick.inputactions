@@ -1,0 +1,34 @@
+{
+    "name": "AndroidJoystick",
+    "maps": [
+        {
+            "name": "Movement",
+            "id": "5b02c856-12a9-4a64-ac7c-3948ae281f8c",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "2003972e-de34-42ff-bc0a-37cefe8c344d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "576179ef-40f1-4d0a-8d0a-0a9a0cb282a7",
+                    "path": "*/{Primary2DMotion}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
